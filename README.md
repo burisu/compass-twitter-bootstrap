@@ -8,11 +8,11 @@ Demo App at https://github.com/vwall/Compass-Twitter-Bootstrap-Demo-App
 
 **Install the gem**
 
-    gem install compass_twitter_bootstrap
+    gem install compass-twitter-bootstrap
 
 **Add it to your Gemfile**
 
-    gem 'compass_twitter_bootstrap'
+    gem 'compass-twitter-bootstrap'
 
 **Bundle install**
 
@@ -20,17 +20,17 @@ Demo App at https://github.com/vwall/Compass-Twitter-Bootstrap-Demo-App
 
 **Add it to your Compass config.rb**
 
-    require 'compass_twitter_bootstrap'
+    require 'compass-twitter-bootstrap'
 
 **Import it into your SCSS file**
 
-    @import "compass_twitter_bootstrap";
+    @import "compass-twitter-bootstrap";
 
 ## Usage with asset pipeline(Rails 3.2)
 
 **Add these gems to your Gemfile. To learn about the new compass-rails gem, see https://github.com/Compass/compass-rails for more info.**
 
-    gem 'compass_twitter_bootstrap'
+    gem 'compass-twitter-bootstrap'
     gem 'compass-rails'
 
 **Bundle install**
@@ -44,11 +44,11 @@ Demo App at https://github.com/vwall/Compass-Twitter-Bootstrap-Demo-App
 
 **Import it into your SCSS file**
 
-    @import "compass_twitter_bootstrap"
+    @import "compass-twitter-bootstrap"
 
 **Import twitter bootstrap responsive if you're looking for that**
 
-    @import "compass_twitter_bootstrap_responsive"
+    @import "compass-twitter-bootstrap_responsive"
 
 
 ## Usage with Rails 3.1 (via plugin)
@@ -70,14 +70,14 @@ Demo App at https://github.com/vwall/Compass-Twitter-Bootstrap-Demo-App
 
 **Import it into your SCSS file**
 
-    @import "compass_twitter_bootstrap"
+    @import "compass-twitter-bootstrap"
 
 
 ## Using [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 
 To use the font awesome font and icons simply change the standard import to:
 
-    @import "compass_twitter_bootstrap_awesome"
+    @import "compass-twitter-bootstrap-awesome"
 
 ## Using Javascripts with Rails Asset Pipeline
 
@@ -97,9 +97,9 @@ To easily convert `.scss` files to `.sass` files you can use this little bash sc
 
 To convert all twitter bootstrap .scss files to .sass (with overwrite):
 
-`$ for f in stylesheets/compass_twitter_bootstrap/*.scss; do sass-convert -F scss -T sass $f stylesheets_sass/compass_twitter_bootstrap/${f%%.*}.sass; done`
+`$ for f in stylesheets/compass-twitter-bootstrap/*.scss; do sass-convert -F scss -T sass $f stylesheets-sass/compass-twitter-bootstrap/${f%%.*}.sass; done`
 
-`$ for f in stylesheets/*.scss; do sass-convert -F scss -T sass $f stylesheets_sass/${f%%.*}.sass; done`
+`$ for f in stylesheets/*.scss; do sass-convert -F scss -T sass $f stylesheets-sass/${f%%.*}.sass; done`
 
 Nice and easy :)
 

@@ -1,0 +1,72 @@
+//
+// Alerts
+// --------------------------------------------------
+
+// Base styles
+// -------------------------
+
+.alert
+  padding: 8px 35px 8px 14px
+  margin-bottom: $base-line-height
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
+  background-color: $warning-background
+  border: 1px solid $warning-border
+  +ctb-border-radius($base-border-radius)
+
+.alert,
+.alert h4
+  // Specified for the h4 to prevent conflicts of changing $headings-color
+  color: $warning-text
+
+.alert h4
+  margin: 0
+
+// Adjust close link position
+.alert .close
+  position: relative
+  top: -2px
+  right: -21px
+  line-height: $base-line-height
+
+// Alternate styles
+// -------------------------
+
+.alert-success
+  background-color: $success-background
+  border-color: $success-border
+  color: $success-text
+
+.alert-success h4
+  color: $success-text
+
+.alert-danger,
+.alert-error
+  background-color: $error-background
+  border-color: $error-border
+  color: $error-text
+
+.alert-danger h4,
+.alert-error h4
+  color: $error-text
+
+.alert-info
+  background-color: $info-background
+  border-color: $info-border
+  color: $info-text
+
+.alert-info h4
+  color: $info-text
+
+// Block alerts
+// -------------------------
+
+.alert-block
+  padding-top: 14px
+  padding-bottom: 14px
+
+.alert-block > p,
+.alert-block > ul
+  margin-bottom: 0
+
+.alert-block p + p
+  margin-top: 5px
